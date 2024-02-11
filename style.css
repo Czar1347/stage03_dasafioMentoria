@@ -37,7 +37,7 @@ header {
 }
 
 header h1,
-legend, fieldset h2 {
+legend, fieldset h2, footer button {
     font-family: 'Staatliches', sans-serif;
     font-weight: 400;
 }
@@ -173,4 +173,38 @@ fieldset h2{
 }
 .col-3 > div{
     width: 100%;
+}
+
+footer{
+    background: #535971;
+
+    height: 160px;
+
+    margin: 0 0 366px;
+    border-radius: 0 0 20px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+footer button{
+    color: white;
+
+    font-size: 20px;
+    line-height: 26px;
+
+    padding: 15px 279px;
+    border-radius: 20px;
+
+
+    background: #FF5374;
+    border: none;
+
+}
+footer button:hover{
+    background: #c9415c;
+    border: 3px solid white;
 }
